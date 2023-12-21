@@ -17,8 +17,8 @@ else:
     print("Wrong")
     score -= 1
 
-anwer = input("What's my name?: ")
-if anwer.lower() == "giorgi":
+anwer = input("What is the capital of France?: ")
+if anwer.lower() == "paris":
     print("Correct")
     score += 1
     percenatge += 25
@@ -26,8 +26,8 @@ else:
     print("Wrong")
     score -= 1
 
-anwer = input("What am i?: ")
-if anwer.lower() == "human":
+anwer = input("What is the output of 'print("Hello" + "World")': ")
+if anwer.lower() == "hello world":
     print("Correct")
     score += 1
     percenatge += 25
@@ -37,8 +37,8 @@ else:
 
 
 
-anwer = input("Were do i live?: ")
-if anwer.lower() == "georgia":
+anwer = input("Which programming language is known for its readability and simplicity?: ")
+if anwer.lower() == "python":
     print("Correct")
     score += 1
     percenatge += 25
