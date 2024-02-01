@@ -18,27 +18,27 @@
   
   body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--Off-Black);
-    color: var(--White);
     padding: 1.8rem 3rem;
+    align-items: center;
     height: 100vh;
     display: flex;
+    color: var(--White);
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    background-color: var(--Off-Black);
   }
   
   .container {
     background-color: var(--Dark-Grey);
-    padding: 1.4rem;
+    padding: 21px;
     margin: auto;
-    width: 18rem;
-    height: 28rem;
+    width: 360px;
+    height: 560px;
     border-radius: 0.3rem;
   }
   
   .profile {
-    margin-bottom: 1.2rem;
+    margin-bottom: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,8 @@
   }
   
   .profile img {
-    height: 80px;
     width: 80px;
+    height: 80px;
     margin-bottom: 0.8rem;
     border-radius: 50%; 
   }
