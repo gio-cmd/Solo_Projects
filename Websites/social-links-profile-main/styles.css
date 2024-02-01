@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    /* Primary */
+  
+    --Green: hsl(75, 94%, 57%);
+  
+    /* Neutral */
+  
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    padding: 1.8rem 3rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    background-color: var(--Dark-Grey);
+    padding: 1.4rem;
+    margin: auto;
+    width: 18rem;
+    height: 28rem;
+    border-radius: 0.3rem;
+  }
+  
+  .profile {
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .profile img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 0.8rem;
+    border-radius: 50%; 
+  }
+  
+  .title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .location {
+    color: var(--Green);
+    font-size: 1rem;
+    margin-bottom: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .job {
+    letter-spacing: 1px;
+    font-size: 0.65rem;
+    margin-bottom: 0.75rem;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    background-color: var(--Grey);
+    color: var(--White);
+    padding: 9.7px 14px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    font-size: 12.5px;
+  }
+  .btn:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+  }
