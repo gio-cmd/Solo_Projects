@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height: 500px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.main-image{
+    width: 260px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.title{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.description{
+    margin-left: 20px;
+    color: hsl(215, 32%, 27%);
+}
+.m-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 20px 0 20px;
+    color: hsl(178, 100%, 50%);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.line{
+    margin-left: 20px;
+    width: 87%;
+    height: 1px;
+    background-color: hsl(178, 100%, 50%);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.creator-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.avatar{
+    width: 50px;
+    margin-left: 20px;
+}
+.creator-info p{
+   color:hsl(178, 100%, 50%);
+}
+.creator-name{
+    color: white;
+}
